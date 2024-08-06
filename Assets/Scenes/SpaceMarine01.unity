@@ -195,7 +195,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_Name
-      value: container_3 (1)
+      value: container1_6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_LocalScale.x
@@ -564,7 +564,7 @@ GameObject:
   - component: {fileID: 201522790}
   - component: {fileID: 201522789}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Floor_Under_SpaceShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -668,7 +668,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_Name
-      value: container_3 (2)
+      value: container1_7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_LocalScale.x
@@ -732,6 +732,134 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
   m_PrefabInstance: {fileID: 286351066}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &358407998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 358408000}
+  - component: {fileID: 358407999}
+  m_Layer: 0
+  m_Name: Main_Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &358407999
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358407998}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d63e10e0d2771934fbc269a88157b73f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.11
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 11
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &358408000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358407998}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.865158, y: -12.40231, z: -45.09494}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &365694527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2619,8 +2747,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.31060877, y: -0.5264351, z: 0.21440355, w: 0.7618527}
-  m_LocalPosition: {x: 27.898956, y: 21.852451, z: -20.617561}
+  m_LocalRotation: {x: -0.1033737, y: 0.67726696, z: -0.09696287, w: -0.7219568}
+  m_LocalPosition: {x: 17.895084, y: 1.4788502, z: -21.170952}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2639,7 +2767,7 @@ GameObject:
   - component: {fileID: 994414932}
   - component: {fileID: 994414931}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Bridge_between_Floor1_and_Floor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2879,7 +3007,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f24986c5005449f4e96046f5edb103a7, type: 3}
       propertyPath: m_Name
-      value: SF_Free-Fighter
+      value: Space_Ship
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f24986c5005449f4e96046f5edb103a7, type: 3}
       propertyPath: m_LocalScale.x
@@ -3104,7 +3232,7 @@ GameObject:
   - component: {fileID: 1159778123}
   - component: {fileID: 1159778122}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Bridge_to_SpaceShip_p2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3209,7 +3337,7 @@ GameObject:
   - component: {fileID: 1183604058}
   - component: {fileID: 1183604057}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Floor(1)_StartPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3536,7 +3664,7 @@ GameObject:
   - component: {fileID: 1268770351}
   - component: {fileID: 1268770350}
   m_Layer: 0
-  m_Name: Cylinder (1)
+  m_Name: Lift_to_SpaceShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3702,7 +3830,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_Name
-      value: container_3 (1)
+      value: container1_1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_LocalScale.x
@@ -3998,7 +4126,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_Name
-      value: container_3 (4)
+      value: container1_4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_LocalScale.x
@@ -4072,7 +4200,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_Name
-      value: container_3 (2)
+      value: container1_2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_LocalScale.x
@@ -4553,7 +4681,7 @@ GameObject:
   - component: {fileID: 1575385653}
   - component: {fileID: 1575385652}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Floor(2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4729,7 +4857,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_Name
-      value: container_3
+      value: container1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_LocalScale.x
@@ -5013,7 +5141,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_Name
-      value: container_3
+      value: container1_5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_LocalScale.x
@@ -5515,7 +5643,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_Name
-      value: container_3 (3)
+      value: container1_3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fa7109f2b1223984d91652c2b463eb51, type: 3}
       propertyPath: m_LocalScale.x
@@ -5666,7 +5794,7 @@ GameObject:
   - component: {fileID: 1922458539}
   - component: {fileID: 1922458538}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Bridge_to_SpaceShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6116,12 +6244,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 7b5f2f9ea19c74c659ab8ac969280fb2, type: 3}
   m_PrefabInstance: {fileID: 2086237398}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2851992508969601386
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4932408392886522033, guid: 5e7911c9ce9734146b700af7b874ffc5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4932408392886522033, guid: 5e7911c9ce9734146b700af7b874ffc5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4932408392886522033, guid: 5e7911c9ce9734146b700af7b874ffc5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -21.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4932408392886522033, guid: 5e7911c9ce9734146b700af7b874ffc5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70584035
+      objectReference: {fileID: 0}
+    - target: {fileID: 4932408392886522033, guid: 5e7911c9ce9734146b700af7b874ffc5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4932408392886522033, guid: 5e7911c9ce9734146b700af7b874ffc5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.708371
+      objectReference: {fileID: 0}
+    - target: {fileID: 4932408392886522033, guid: 5e7911c9ce9734146b700af7b874ffc5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4932408392886522033, guid: 5e7911c9ce9734146b700af7b874ffc5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4932408392886522033, guid: 5e7911c9ce9734146b700af7b874ffc5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.205
+      objectReference: {fileID: 0}
+    - target: {fileID: 4932408392886522033, guid: 5e7911c9ce9734146b700af7b874ffc5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465368583498279867, guid: 5e7911c9ce9734146b700af7b874ffc5, type: 3}
+      propertyPath: m_Name
+      value: MainHero
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e7911c9ce9734146b700af7b874ffc5, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 963194228}
   - {fileID: 705507995}
+  - {fileID: 963194228}
+  - {fileID: 358408000}
   - {fileID: 1482455920}
   - {fileID: 558222392}
   - {fileID: 996761221}
+  - {fileID: 2851992508969601386}
