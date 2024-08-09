@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SpaceMarine01.unity
-    guid: ac464be54729cdd4c90f7e339649e5d4
+    path: Assets/Scenes/Menu_Space.unity
+    guid: ea4c07d97db98b641887dade8d61ea92
+  - enabled: 1
+    path: Assets/Scenes/Space01.unity
+    guid: b0b4f33e933612b4b8b493e229a48dee
   m_configObjects: {}

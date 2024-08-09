@@ -9,9 +9,19 @@ public class CameraAgent : MonoBehaviour
 
     void Start()
     {
-        offset = transform.position - target.position;
+        Initialization();
     }
     void Update()
+    {
+        TargetPosition();
+    }
+
+    private void Initialization()
+    {
+        offset = transform.position - target.position;
+    }
+
+    private void TargetPosition()
     {
         transform.position = target.position + offset;
     }
